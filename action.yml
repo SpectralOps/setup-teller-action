@@ -1,0 +1,16 @@
+name: "Setup Teller"
+description: "Setup Teller by installing, downloading, and adding it to the path."
+author: "Spectral"
+branding:
+  icon: "play-circle"
+  color: "gray-dark"
+inputs:
+  teller-version:
+    description: The Teller version to install.
+    default: "1.1.0"
+outputs:
+  teller-version:
+    description: "The Teller version that was installed."
+runs:
+  using: "node12"
+  main: "main.js"
