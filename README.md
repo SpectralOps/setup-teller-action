@@ -37,6 +37,6 @@ jobs:
       - name: Setup Teller
         uses: spectralops/setup-teller@v1
 
-      - name: do stuff
-        run: echo stuff
+      - name: Run a Teller task (show, scan, run, etc.)
+        run: teller run [args]
 ```
