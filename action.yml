@@ -7,7 +7,7 @@ branding:
 inputs:
   teller-version:
     description: The Teller version to install.
-    default: "1.1.0"
+    default: "1.5.6"
 outputs:
   teller-version:
     description: "The Teller version that was installed."
