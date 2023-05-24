@@ -7,10 +7,9 @@ Set up your GitHub Actions workflow with a specific version of [Teller](https://
 Use the following to set up a `teller` binary that's available in your workflow steps:
 
 ```yaml
-      - name: Setup Teller
-        uses: spectralops/setup-teller@v2
+- name: Setup Teller
+  uses: spectralops/setup-teller-action@v2
 ```
-
 
 ## :clipboard: Workflow
 
@@ -32,10 +31,9 @@ jobs:
       - name: Clone repo
         uses: actions/checkout@master
 
-
       # set up teller
       - name: Setup Teller
-        uses: spectralops/setup-teller@v2
+        uses: spectralops/setup-teller-action@v2
 
       - name: Run a Teller task (show, scan, run, etc.)
         run: teller run [args]
