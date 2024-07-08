@@ -12,5 +12,5 @@ outputs:
   teller-version:
     description: "The Teller version that was installed."
 runs:
-  using: "node16"
+  using: "node20"
   main: "main.js"
